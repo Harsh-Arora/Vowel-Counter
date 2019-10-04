@@ -1,0 +1,42 @@
+body,html{
+	background: #3C787E;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	position: relative;
+	height: 100%;
+}
+
+.container .center{
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	color: #F1F7ED;
+	text-align: center !important;
+}
+
+.center .header{
+	font-size: 1.75em;
+}
+
+.center input{
+	margin: 15px 0;
+	font-size: 1em;
+	padding: 5px 0;
+	text-align: left;
+	width: 20%;
+	text-indent: 5px;
+	outline: none;
+}
+
+.center #res{
+	font-size: 1.25em;
+}
